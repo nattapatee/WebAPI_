@@ -1,0 +1,14 @@
+/Users/bcircle/src/SearchApi/bin/Debug/netcoreapp2.1/SearchApi.deps.json
+/Users/bcircle/src/SearchApi/bin/Debug/netcoreapp2.1/SearchApi.runtimeconfig.json
+/Users/bcircle/src/SearchApi/bin/Debug/netcoreapp2.1/SearchApi.runtimeconfig.dev.json
+/Users/bcircle/src/SearchApi/bin/Debug/netcoreapp2.1/SearchApi.dll
+/Users/bcircle/src/SearchApi/bin/Debug/netcoreapp2.1/SearchApi.pdb
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.csprojAssemblyReference.cache
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.csproj.CoreCompileInputs.cache
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.RazorAssemblyInfo.cache
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.RazorAssemblyInfo.cs
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.AssemblyInfoInputs.cache
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.AssemblyInfo.cs
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.RazorTargetAssemblyInfo.cache
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.dll
+/Users/bcircle/src/SearchApi/obj/Debug/netcoreapp2.1/SearchApi.pdb

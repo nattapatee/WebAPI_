@@ -1,0 +1,8 @@
+
+POST http://localhost:5002/api/search/searchFile
+Content-Type: application/json
+
+{
+  "path":"/Users/bcircle/src/SearchApi",
+  "pattern": "*.json"
+}

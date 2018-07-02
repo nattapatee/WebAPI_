@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Search File</title>
+    <style>
+
+        #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 100px;    
+}
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+    
+      <h1>Search File</h1>
+      
+       <div class="panel panel-primary">
+        <div class="panel-body">
+
+        <!--ค้นหา-->
+          <div class="panel panel-primary" id="rcorners2">
+                <div class="panel-heading" >POST Search File</div>
+                <div class="panel-body">
+                  <form class="form-inline" id="PostInputForm">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="Path" placeholder="Todo Path ...">
+                      <input type="text" class="form-control" id="Pattern" placeholder="Todo Pattern ...">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                  </form><br/>
+                  <div class="panel-body" id="postResult"></div>
+                </div>
+              </div>
+
+
+          <div class="example" style="background-color:yellow">
+              </div>
+          </div>
+        </div>
+      </div>
+      <script src="search.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>

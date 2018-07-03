@@ -41,7 +41,7 @@ namespace SearchApi.Controllers
          [HttpPost]
          public IActionResult SearchFile ([FromBody] SearchRe request)
         {
-        logger.LogInformation("Search file {@Resut}", request);
+        logger.LogInformation("กำลังค้นหา {@Resut}", request);
         
           var(ok,error) = Varlidate(request);
 

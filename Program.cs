@@ -19,7 +19,7 @@ namespace SearchApi
             
             Log.Logger = new LoggerConfiguration()
             .WriteTo.Console(theme: AnsiConsoleTheme.Literate,outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Exception}")
-            .WriteTo.RollingFile("Searchlog[ประจำวันที่{Date}].txt", fileSizeLimitBytes: null,
+            .WriteTo.RollingFile("logs/Searchlog[ประจำวันที่{Date}].txt", fileSizeLimitBytes: null,
             outputTemplate: "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}")
             .CreateLogger();
 

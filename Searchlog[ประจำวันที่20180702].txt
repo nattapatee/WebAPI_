@@ -72,3 +72,68 @@
 2018-07-02 17:40:16.359 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
 2018-07-02 17:40:16.359 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 5.398ms
 2018-07-02 17:40:16.359 +07:00 [Information] Request finished in 6.386ms 200 application/json; charset=utf-8
+2018-07-02 18:52:26.708 +07:00 [Information] กำลังบันทึกลงไฟล์
+2018-07-02 18:52:27.224 +07:00 [Information] User profile is available. Using '"/Users/bcircle/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2018-07-02 18:52:31.352 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 148
+2018-07-02 18:52:31.537 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 18:52:31.657 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 18:52:31.675 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 2.197ms.
+2018-07-02 18:52:31.685 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String"'.
+2018-07-02 18:52:31.694 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 152.871ms
+2018-07-02 18:52:31.702 +07:00 [Information] Request finished in 352.913ms 400 text/plain; charset=utf-8
+2018-07-02 18:54:21.141 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 104
+2018-07-02 18:54:21.142 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 18:54:21.144 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 18:54:21.148 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4.396ms.
+2018-07-02 18:54:21.149 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-02 18:54:21.156 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 13.847ms
+2018-07-02 18:54:21.157 +07:00 [Information] Request finished in 16.031ms 200 application/json; charset=utf-8
+2018-07-02 18:57:13.461 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 148
+2018-07-02 18:57:13.465 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 18:57:13.466 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 18:57:13.466 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 0.1ms.
+2018-07-02 18:57:13.466 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String"'.
+2018-07-02 18:57:13.467 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 1.067ms
+2018-07-02 18:57:13.467 +07:00 [Information] Request finished in 5.747ms 400 text/plain; charset=utf-8
+2018-07-02 18:57:16.347 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 148
+2018-07-02 18:57:16.348 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 18:57:16.348 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 18:57:16.349 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 0.091ms.
+2018-07-02 18:57:16.349 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String"'.
+2018-07-02 18:57:16.349 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 1.137ms
+2018-07-02 18:57:16.349 +07:00 [Information] Request finished in 1.935ms 400 text/plain; charset=utf-8
+2018-07-02 19:04:01.684 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 103
+2018-07-02 19:04:01.689 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 19:04:01.689 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 19:04:01.689 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 0.097ms.
+2018-07-02 19:04:01.690 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String"'.
+2018-07-02 19:04:01.690 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 1.021ms
+2018-07-02 19:04:01.690 +07:00 [Information] Request finished in 5.643ms 400 text/plain; charset=utf-8
+2018-07-02 19:04:24.035 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 104
+2018-07-02 19:04:24.035 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 19:04:24.036 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 19:04:24.040 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3.941ms.
+2018-07-02 19:04:24.040 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-02 19:04:24.041 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 5.417ms
+2018-07-02 19:04:24.041 +07:00 [Information] Request finished in 6.304ms 200 application/json; charset=utf-8
+2018-07-02 19:08:26.147 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 104
+2018-07-02 19:08:26.147 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 19:08:26.148 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 19:08:26.153 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4.581ms.
+2018-07-02 19:08:26.153 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-02 19:08:26.153 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 6.031ms
+2018-07-02 19:08:26.154 +07:00 [Information] Request finished in 6.866ms 200 application/json; charset=utf-8
+2018-07-02 19:21:42.083 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 104
+2018-07-02 19:21:42.083 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 19:21:42.084 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 19:21:42.089 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4.359ms.
+2018-07-02 19:21:42.089 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-02 19:21:42.090 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 5.922ms
+2018-07-02 19:21:42.090 +07:00 [Information] Request finished in 6.848ms 200 application/json; charset=utf-8
+2018-07-02 19:22:50.008 +07:00 [Information] Request starting HTTP/1.1 POST http://localhost:5002/api/search/searchFile application/json;charset=UTF-8 104
+2018-07-02 19:22:50.009 +07:00 [Information] Route matched with "{action = \"searchFile\", controller = \"Search\"}". Executing action "SearchApi.Controllers.SearchController.searchFile (SearchApi)"
+2018-07-02 19:22:50.009 +07:00 [Information] Executing action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)" with arguments (["SearchApi.Controllers.SearchRe"]) - Validation state: Valid
+2018-07-02 19:22:50.014 +07:00 [Information] Executed action method "SearchApi.Controllers.SearchController.searchFile (SearchApi)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4.66ms.
+2018-07-02 19:22:50.015 +07:00 [Information] Executing ObjectResult, writing value of type '"System.String[]"'.
+2018-07-02 19:22:50.015 +07:00 [Information] Executed action "SearchApi.Controllers.SearchController.searchFile (SearchApi)" in 6.009ms
+2018-07-02 19:22:50.015 +07:00 [Information] Request finished in 6.86ms 200 application/json; charset=utf-8

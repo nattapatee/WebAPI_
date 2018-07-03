@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "34db9fdc82595193504988d6ec04b013a65dda9d"
+    "signature": "128a79e98f8eb503ddb294b87e9824143bc0ecfc"
   },
   "compilationOptions": {
     "defines": [
@@ -25,9 +25,11 @@
       "SearchApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.Extensions.Logging": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
           "Serilog.AspNetCore": "2.1.1",
           "Serilog.Sinks.Console": "3.1.1",
+          "Serilog.Sinks.Http": "4.3.0",
           "Serilog.Sinks.RollingFile": "3.3.0"
         },
         "runtime": {
@@ -301,6 +303,38 @@
         },
         "compile": {
           "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "Serilog.Sinks.Http/4.3.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Serilog.Sinks.PeriodicBatching": "2.1.1",
+          "Serilog.Sinks.RollingFile": "3.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.Http.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.Sinks.Http.dll": {}
+        }
+      },
+      "Serilog.Sinks.PeriodicBatching/2.1.1": {
+        "dependencies": {
+          "Serilog": "2.5.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Threading.Timer": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {}
         }
       },
       "Serilog.Sinks.RollingFile/3.3.0": {
@@ -3362,6 +3396,20 @@
       "sha512": "sha512-VHbo68pMg5hwSWrzLEdZv5b/rYmIgHIRhd4d5rl8GnC5/a8Fr+RShT5kWyeJOXax1el6mNJ+dmHDOVgnNUQxaw==",
       "path": "serilog.sinks.file/3.2.0",
       "hashPath": "serilog.sinks.file.3.2.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Http/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FJhNSic60yqR2YjkQrewCgi/OBQB3LKNdcM8ifqWu7JT8At0xFkbr+cJ4xrmeU61haupQAtqOJshsyNoi5Y5uQ==",
+      "path": "serilog.sinks.http/4.3.0",
+      "hashPath": "serilog.sinks.http.4.3.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.PeriodicBatching/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L1iZtcEzQdEIYCPvhYJYB2RofPg+i1NhHJfS+DpXLyLSMS6OXebqaI1fxWhmJRIjD9D9BuXi23FkZTQDiP7cHw==",
+      "path": "serilog.sinks.periodicbatching/2.1.1",
+      "hashPath": "serilog.sinks.periodicbatching.2.1.1.nupkg.sha512"
     },
     "Serilog.Sinks.RollingFile/3.3.0": {
       "type": "package",

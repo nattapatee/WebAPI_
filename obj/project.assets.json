@@ -2951,6 +2951,34 @@
           "lib/netstandard1.3/Serilog.Sinks.File.dll": {}
         }
       },
+      "Serilog.Sinks.Http/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Serilog.Sinks.PeriodicBatching": "2.1.1",
+          "Serilog.Sinks.RollingFile": "3.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Serilog.Sinks.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Serilog.Sinks.Http.dll": {}
+        }
+      },
+      "Serilog.Sinks.PeriodicBatching/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.0.0",
+          "System.Collections.Concurrent": "4.0.12",
+          "System.Threading.Timer": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll": {}
+        }
+      },
       "Serilog.Sinks.RollingFile/3.3.0": {
         "type": "package",
         "dependencies": {
@@ -7388,6 +7416,34 @@
         "serilog.sinks.file.nuspec"
       ]
     },
+    "Serilog.Sinks.Http/4.3.0": {
+      "sha512": "FJhNSic60yqR2YjkQrewCgi/OBQB3LKNdcM8ifqWu7JT8At0xFkbr+cJ4xrmeU61haupQAtqOJshsyNoi5Y5uQ==",
+      "type": "package",
+      "path": "serilog.sinks.http/4.3.0",
+      "files": [
+        "lib/net45/Serilog.Sinks.Http.dll",
+        "lib/net45/Serilog.Sinks.Http.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Http.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Http.xml",
+        "serilog.sinks.http.4.3.0.nupkg.sha512",
+        "serilog.sinks.http.nuspec"
+      ]
+    },
+    "Serilog.Sinks.PeriodicBatching/2.1.1": {
+      "sha512": "L1iZtcEzQdEIYCPvhYJYB2RofPg+i1NhHJfS+DpXLyLSMS6OXebqaI1fxWhmJRIjD9D9BuXi23FkZTQDiP7cHw==",
+      "type": "package",
+      "path": "serilog.sinks.periodicbatching/2.1.1",
+      "files": [
+        "lib/net45/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/net45/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard1.1/Serilog.Sinks.PeriodicBatching.xml",
+        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.dll",
+        "lib/netstandard1.2/Serilog.Sinks.PeriodicBatching.xml",
+        "serilog.sinks.periodicbatching.2.1.1.nupkg.sha512",
+        "serilog.sinks.periodicbatching.nuspec"
+      ]
+    },
     "Serilog.Sinks.RollingFile/3.3.0": {
       "sha512": "2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
       "type": "package",
@@ -11749,9 +11805,11 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.Extensions.Logging >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Serilog.AspNetCore >= 2.1.1",
       "Serilog.Sinks.Console >= 3.1.1",
+      "Serilog.Sinks.Http >= 4.3.0",
       "Serilog.Sinks.RollingFile >= 3.3.0"
     ]
   },
@@ -11800,6 +11858,10 @@
             "version": "[2.1.1, )",
             "autoReferenced": true
           },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
@@ -11812,6 +11874,10 @@
           "Serilog.Sinks.Console": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Serilog.Sinks.Http": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           },
           "Serilog.Sinks.RollingFile": {
             "target": "Package",

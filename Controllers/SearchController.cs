@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Serilog.Core;
 using System.IO;
 
 namespace SearchApi.Controllers
@@ -6,6 +8,12 @@ namespace SearchApi.Controllers
     [Route("/api/[controller]/[action]")]
     public class SearchController : ControllerBase
     {
+        ILogger<SearchController> logger;
+
+        public SearchController(ILogger<SearchController> logger) {
+            this.logger = logger;
+        }
+        
         //ค้นหาไฟล์ว่ามีไฟล์ไหมในตำแหน่งนนี้ๆ
         private(bool,string) Varlidate (SearchRe request)
         {
@@ -28,10 +36,13 @@ namespace SearchApi.Controllers
         
 
         // POST api/values
-        [HttpPost]
+       
         //ค้นหาไฟล์และที่อยู่REsult
-        public IActionResult searchFile ([FromBody] SearchRe request)
+         [HttpPost]
+         public IActionResult SearchFile ([FromBody] SearchRe request)
         {
+        logger.LogInformation("Search file {@Resut}", request);
+        
           var(ok,error) = Varlidate(request);
 
           if(ok)
